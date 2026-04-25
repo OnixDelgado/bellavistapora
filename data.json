@@ -1,0 +1,65 @@
+{
+  "usuario": {
+    "nombre": "Leonel",
+    "puntosActuales": 5750,
+    "puntosMaximos": 15500
+  },
+  "categorias": [
+    { "id": "lugares", "nombre": "Lugares turísticos", "icono": "fa-solid fa-map-location-dot", "destacado": true },
+    { "id": "hoteles", "nombre": "Hoteles/ Camping", "icono": "fa-solid fa-bed", "destacado": false },
+    { "id": "actividades", "nombre": "Actividades", "icono": "fa-solid fa-person-hiking", "destacado": false },
+    { "id": "eventos", "nombre": "Eventos", "icono": "fa-solid fa-calendar-days", "destacado": false },
+    { "id": "transportes", "nombre": "Transportes", "icono": "fa-solid fa-car", "destacado": false },
+    { "id": "gastronomia", "nombre": "Restaurantes", "icono": "fa-solid fa-utensils", "destacado": false }
+  ],
+  "visitasPopulares": [
+    { 
+      "id": "toropi", 
+      "nombre": "Reserva Toropí",
+      "descripcionBreve": "Yacimiento paleontológico",
+      "descripcionDetallada": "El Arroyo Toropí es uno de los yacimientos paleontológicos más importantes de Sudamérica. Podrás caminar por cárcavas donde se encuentran fósiles de megafauna extinta de hace miles de años.",
+      "imagen": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=600&auto=format&fit=crop"
+    },
+    { 
+      "id": "cruz", 
+      "nombre": "Cruz de los\\nMilagros",
+      "descripcionBreve": "Símbolo histórico de la ciudad",
+      "descripcionDetallada": "Monumento histórico y religioso situado a orillas del río Paraná. Ofrece unas vistas panorámicas espectaculares del atardecer sobre el río.",
+      "imagen": "https://images.unsplash.com/photo-1548231502-d96700e12d4a?q=80&w=600&auto=format&fit=crop"
+    },
+    { 
+      "id": "costanera", 
+      "nombre": "Costanera",
+      "descripcionBreve": "Paseo ribereño",
+      "descripcionDetallada": "El paseo costero de Bella Vista es ideal para caminatas, tomar mates frente al río y disfrutar de la brisa. Cuenta con zonas recreativas y barrancas imponentes.",
+      "imagen": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "detalles": {
+    "gastronomia": {
+      "titulo": "Sabores Locales",
+      "icono": "fa-solid fa-utensils",
+      "color": "var(--color-gastro)",
+      "descripcion": "Descubrí la gastronomía local, desde pescados de río hasta platos regionales tradicionales.",
+      "subtitulo": "Directorio Gastronómico",
+      "items": [
+        { "icono": "fa-solid fa-store", "texto": "<strong>Ristorante El Viejo Muelle</strong> - Tel: 3777-609087" },
+        { "icono": "fa-solid fa-burger", "texto": "<strong>La Burguesía</strong> - Comida rápida" },
+        { "icono": "fa-solid fa-pizza-slice", "texto": "<strong>Mr Pizza</strong> - Tel: 3777-659614" }
+      ],
+      "botonAccion": "Ver mapa gastronómico"
+    },
+    "eventos": {
+      "titulo": "Eventos y Cultura",
+      "icono": "fa-solid fa-calendar-star",
+      "color": "var(--color-eventos)",
+      "descripcion": "Bella Vista es fiesta todo el año. Conocé nuestra historia y celebraciones.",
+      "subtitulo": "Imperdibles",
+      "items": [
+        { "icono": "fa-solid fa-lemon", "texto": "<strong>Fiesta Nacional de la Naranja:</strong> Homenaje a la citricultura local y sus raíces que datan de la primera fiesta en 1964." },
+        { "icono": "fa-solid fa-masks-theater", "texto": "<strong>Carnavales:</strong> En temporada de verano." },
+        { "icono": "fa-solid fa-landmark", "texto": "<strong>Museo Histórico:</strong> Abierto de lunes a sábados (08 hs a 12 hs y 16 hs a 20 hs)." }
+      ]
+    }
+  }
+}

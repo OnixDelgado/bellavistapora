@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bellavistapora/static/css/main.133f9b5d.css",
+    "main.js": "/bellavistapora/static/js/main.46f4d614.js",
+    "index.html": "/bellavistapora/index.html",
+    "main.133f9b5d.css.map": "/bellavistapora/static/css/main.133f9b5d.css.map",
+    "main.46f4d614.js.map": "/bellavistapora/static/js/main.46f4d614.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.133f9b5d.css",
+    "static/js/main.46f4d614.js"
+  ]
+}
